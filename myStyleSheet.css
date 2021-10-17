@@ -1,0 +1,52 @@
+p {
+color: #EEB42F;
+}
+
+h1 {
+  color: brown;
+  font-family: papyrus;
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  color: blue;
+}
+
+.one {
+  color: purple;
+}
+
+.two {
+  background-color: teal;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#straydogsImg {
+  height: 10%;
+  width: 10%;
+}
+
+#aboutMeBodyTag {
+  background-image: url("Images/cut eanimals.jpg")
+}
+
+.space {
+  background-color: green;
+  padding: 70px 25px 50px 80px;
+  border: 10px dotted red;
+  margin: 50px 45px 25px 30px;
+}
+
+.button {
+  display: square;
+  height: 30%
+  border: 2px solid green;
+  background-color: red;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
