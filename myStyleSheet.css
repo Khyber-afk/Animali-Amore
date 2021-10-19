@@ -1,52 +1,90 @@
 p {
-color: #EEB42F;
+color: black;
 }
 
 h1 {
-  color: brown;
-  font-family: papyrus;
+  color: teal;
+  font-family: garamond;
   font-size: 40px;
   text-align: center;
+  text-decoration: underline;
 }
 
-a {
-  color: blue;
+.cu {
+  color: black;
+  font-family: garamond;
+  font-size: 40px;
+  text-align: left;
+  text-decoration: underline;
 }
 
-.one {
-  color: purple;
-}
-
-.two {
-  background-color: teal;
-}
-
-ul {
-  list-style-type: square;
+body {
+  background-color: darkgrey;
+  font-family: garamond;
+  font-size: 20px;
 }
 
 #straydogsImg {
-  height: 10%;
-  width: 10%;
+  height: 50%;
+  width: 50%;
 }
 
-#aboutMeBodyTag {
-  background-image: url("Images/cut eanimals.jpg")
+#cuteanimalsImg {
+  height: 50%;
+  width: 50%;
+}
+
+.menu {
+  margin: 10;
+  padding: 0px;
+}
+
+.menu a {
+  display: block;
+  padding: 14px 16px;
+  color: #6299A4;
+  font-family: cursive;
+  text-decoration: underline;
+  float: left;
+}
+
+.menu a:hover{
+  background-color: grey;
 }
 
 .space {
-  background-color: green;
   padding: 70px 25px 50px 80px;
   border: 10px dotted red;
   margin: 50px 45px 25px 30px;
+  text-align: center;
 }
+
 
 .button {
   display: square;
   height: 30%
   border: 2px solid green;
-  background-color: red;
+  background-color: #9773DB;
   color: white;
   font-size: 35px;
   text-align: center;
+}
+
+.space a {
+  padding: 70px 25px 50px 80px;
+  border: 10px dotted red;
+  margin: 50px 45px 25px 30px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px
+  padding: 20px;
+  font-size: 19px;
+}
+
+.submit {
+  font-size: 15px;
 }
